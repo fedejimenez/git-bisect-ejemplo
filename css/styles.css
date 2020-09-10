@@ -9,3 +9,21 @@
 html {
   scroll-behavior: smooth;
 }
+
+#sobre-mi,
+#proyectos,
+footer {
+  padding: 5rem;
+}
+
+#sobre-mi h1,
+#proyectos h1,
+footer h1 {
+  text-align: center;
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+#sobre-mi div {
+  display: flex;
+}
