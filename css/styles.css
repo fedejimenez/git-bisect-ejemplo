@@ -110,3 +110,55 @@ footer p {
   text-align: center;
   padding: 1rem;
 }
+
+/*  RESPONSIVE */
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .jumbotron h1 {
+    padding: 0;
+  }
+  .jumbotron .container {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+  }
+  .jumbotron p {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    text-shadow: 1px 1px 5px black;
+  }
+  #sobre-mi,
+  #proyectos,
+  footer {
+    padding: 1rem;
+  }
+  #sobre-mi h1,
+  #proyectos h1,
+  footer h1 {
+    padding: 1rem;
+    margin: 0;
+  }
+  #sobre-mi div {
+    flex-direction: column;
+  }
+  #sobre-mi p {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  #sobre-mi img {
+    width: 100%;
+    text-align: center;
+  }
+  footer a {
+    font-size: 1.5rem;
+  }
+  footer ul li {
+    padding: 1rem;
+  }
+}
