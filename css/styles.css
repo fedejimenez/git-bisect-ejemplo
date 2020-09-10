@@ -27,3 +27,15 @@ footer h1 {
 #sobre-mi div {
   display: flex;
 }
+
+/* NAVBAR */
+
+.nabvar {
+  position: sticky;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
